@@ -1,0 +1,19 @@
+html {
+	box-sizing: border-box;
+}
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+.body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: rgb(255, 255, 255);
+	color: rgb(82, 82, 82);
+	margin: auto;
+	max-width: 1000px;
+}
+.dark {
+	background-color: grey;
+	color: rgb(243, 243, 243);
+}

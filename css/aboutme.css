@@ -1,0 +1,25 @@
+.aboutMe__subHeader {
+	font-size: 35px;
+	font-style: italic;
+	text-shadow: 5px 5px 18px rgb(87, 72, 72);
+	line-height: 0.9;
+	padding: 10px;
+	text-align: center;
+	background-color: #e6f2ff;
+	box-shadow: 10px 10px 30px;
+}
+.aboutMe__photo--file {
+	width: 40%;
+	min-width: 300px;
+	box-shadow: 10px 10px 20px;
+	border-radius: 20px;
+}
+.aboutMe__photo {
+	text-align: center;
+}
+.aboutMe__content {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+	padding: 0px 40px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link
+			rel="stylesheet"
+			href="./css/style.css" />
+			<link
+			rel="stylesheet"
+			href="./css/header.css" />
+			<link
+			rel="stylesheet"
+			href="./css/navigation.css" />
+			<link
+			rel="stylesheet"
+			href="./css/aboutme.css" />
+			<link
+			rel="stylesheet"
+			href="./css/table.css" />
+			<link
+			rel="stylesheet"
+			href="./css/footer.css" />
+		<script
+			defer
+			src="./js/skrypt.js"></script>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet" />
+		<title>Denis Suwała</title>
+	</head>
+	<body class="body">
+		<header class="header"><button class="header__button js-button"><span class="js-theme">Ciemny</span> motyw</button><h1>Denis Suwała</h1></header>
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li>
+					<a
+						class="navigation__link"
+						href="#aboutMeTitle"
+						>O mnie</a
+					>
+				</li>
+				<li >
+					<a
+						class="navigation__link"
+						href="#motivationTitle"
+						>Motywacja</a
+					>
+				</li>
+				<li>
+					<a
+						class="navigation__link"
+						href="#interestedTitle"
+						>Zainteresowania</a
+					>
+				</li>
+				<li>
+					<a
+						class="navigation__link"
+						href="#youtubeTitle"
+						>Ulubieni youtuberzy</a
+					>
+				</li>
+			</ul>
+		</nav>
+			<section
+				class="aboutMe"
+				id="aboutMeTitle">
+				<h2 class="aboutMe__subHeader">O mnie</h2>
+				<div class="aboutMe__photo"><img
+					class="aboutMe__photo--file"
+					src="./img/8C204E0E-2CB9-498D-A608-2E750D908AC2.jpeg"
+					alt="Denis Suwała" /></div>
+				<p class="aboutMe__content">
+					Nazywam się Denis Suwała, mam 26 lat. Na codzień zajmuje się
+					tworzeniem treści, na profile w social mediach oraz nagrywaniem filmów na
+					youtube.
+				</p>
+				<h2
+					class="aboutMe__subHeader"
+					id="motivationTitle">
+					Moja motywacja
+				</h2>
+				<p class="aboutMe__content">
+					Podjąłem nauke front-endu w szkole programowania YouCode, ponieważ
+					zarobki i dużo ofert pracy na rynku IT motywują do nabycia tych
+					umiejętności. Z pewnością jest to świetne zabepieczenie na przyszłość
+					i bardzo ciekawa scieżka rozwoju, która wymaga od nas ciągłej nauki i
+					parcia na przód.
+				</p>
+				<h2
+					class="aboutMe__subHeader"
+					id="interestedTitle">
+					Zainteresowania
+				</h2>
+				<p class="aboutMe__content">
+					To czym zajmuje się dziś, wynika z moich zainteresowań, od zawsze
+					lubiałem oglądac filmy na youtube, wielu różnych twórców, ale wiodący
+					kontent na mojej liście to poprostu rozrywka. Bardzo przyjemnie, było
+					na bierząco obserwować, ekspresowy rozwój wielu z nich, niektórzy w
+					zaledwie kilka miesięcy potrafili osiągać wielkie wyświetlenia.
+				</p>
+				<h2
+					class="aboutMe__subHeader"
+					id="youtubeTitle">
+					Ulubieni Youtuberzy
+				</h2></section>
+				<div class="container--table">
+				<table class="table">
+					<tr class="table__row">
+						<th class="table__cell table__cell--head " scope="col">Nazwa kanału</th>
+						<th class="table__cell table__cell--head" scope="col">Ilość subskrybentów</th>
+						<th class="table__cell table__cell--head" scope="col">Łączna liczba wyświetleń</th>
+						<th class="table__cell table__cell--head" scope="col">Link do kanału</th>
+						<th class="table__cell table__cell--head" scope="col">Kraj zamieszkania</th>
+					</tr>
+					<tr class="table__row">
+						<th class="table__cell table__cell--head " scope="row">Karol Friz Wiśniewski</th>
+						<td class="table__cell">4 670 000</td>
+						<td class="table__cell">2 130 050 000</td>
+						<td class="table__cell"><a class="table__link" target="_blank" href="https://www.youtube.com/c/frizoluszek">Friz</a></td>
+						<td class="table__cell" rowspan="2">Polska</td>
+					</tr>
+					<tr class="table__row">
+						<th class="table__cell table__cell--head " scope="row">Planeta abstrakcja</th>
+						<td class="table__cell">398 000</td>
+						<td class="table__cell">41 617 887</td>
+						<td class="table__cell"><a class="table__link" target="_blank" href="https://www.youtube.com/c/PlanetaAbstrakcja">Planeta abstracja</a></td>
+						
+					</tr>
+					<tr class="table__row">
+						<th class="table__cell table__cell--head " scope="row">Logan Paul</th>
+						<td class="table__cell">23 600 000</td>
+						<td class="table__cell">5 916 009 235</td>
+						<td class="table__cell"><a class="table__link" target="_blank" href="https://www.youtube.com/c/loganpaulvlogs">Logan</a></td>
+						<td class="table__cell" rowspan="2">USA</td>
+					</tr>
+					<tr class="table__row">
+						<th class="table__cell table__cell--head scope="row">David Dobrik</th>
+						<td class="table__cell">18 200 000</td>
+						<td class="table__cell">7 105 226 394</td>
+						<td class="table__cell"><a class="table__link" target="_blank" href="https://www.youtube.com/c/DavidDobrik">David</a></td>
+					</tr>
+				
+				
+				</table>
+			</div>
+		<footer class="footer"><p class="footer__name">&copy; Denis Suwała</p></footer>
+	</body>
+</html>

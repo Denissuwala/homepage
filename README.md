@@ -3,7 +3,7 @@
 ## DEMO 
 [CLICK Link to website](https://denissuwala.github.io/homepage/)
 ## Description of my website
-My first website is my business card, which I created as an exercise while attending a Youcode programming course. On it we can read about my past interests and activities, but also about my motivation to learn how to develop websites and web applications.
+My first website is my business card, which I created as an exercise while attending a *Youcode programming course.* On it we can read about my past interests and activities, but also about my motivation to learn how to develop websites and web applications.
 ## Languages and technologies used in the development of the site
 - HTML
 - CSS
